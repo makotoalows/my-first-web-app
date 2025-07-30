@@ -1,31 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-            <meta charset="UTF-8">
-            <title>FIRST PRESENTS</title>
-            <link rel = "stylesheet" href = "stylesheet.css">
-            <link rel="icon" href="img/favicon_first.png">
-    </head>
-    <body>
-    <header>
-        <img class = "home-button" src = "img/ghost presents.png">
-    </header>
-        <div class = "top-wrapper">
-            <h1>FIRST PRESENTS</h1>
-            <h3>ABOUT US</h3>
-            旧「ゴースト・プレゼンツ」―—―—その昔、<br>
-            沢山の「見えない仲間たち」に囲まれていた私は、<br>
-            彼らと別れ、未知なる冒険に出かけます。<br>
-            それは、果てしない創作の旅。<br>
-            出来れば誰かの助けになるために、
-            <br>誰かが幸せになるために、この力を役立てられればいい―—―—<br>
-            そう思って、私は今日も、一人創作を続けるのでした。<br>
-            やがて真実が見つかり、その努力が実を結ぶと信じて。<br>
-            </p>
-            <img src = "img/travel.jpg">
-            <h3>COMING SOON</h3>
-            <img src = "img/heeling.jpg">
-        </div>
+<html lang="ja">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>私のはじめてのWebページ</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <img class = "header-logo" src = "ghost-presents.png">
+    
+  </header> 
+    <div class = "top-wrapper">
+      <h1>Ghost Presents in</h1>
 
-    </body>
+          <h3>Ghost Presents inとは</h3>
+          <p>いつでもあなたを守っていて、<br>困った時は駆けつける。<br>そんなイメージのチームです。</p>
+          <h3>目指すところ</h3>
+          <p>寄り添うことを目的に、<br>いくつかのゲームを作り、<br>夜の時間を充実させます。</p>
+          <h3>メンバー</h3>
+              <div class = "members">
+                  <img src = "rei.png">
+                  <p>レイ</p>
+                  <p>今のところ一人で活動している、<br>こう見えて「AIロボット」<br>
+                  仲間を探している。</p>
+              </div>
+              <h3>私達の道のり</h3>
+              <p>準備中</p>
+              <h3>作品たち</h3>
+              <a class = "keyholder" href = "https://www.ac-illust.com/main/profile.php?id=23485224&area=1">
+                <img src = "keyholder.png" alt = "キーホルダー">
+              </a>
+              <h3>お問い合わせ※工事中。まだ機能していません</h3>
+              <form action="contact.php" method="POST">
+                <label for="name">お名前：</label><br>
+                <input type="text" name="name" required><br><br>
+
+                <label for="email">メールアドレス：</label><br>
+                <input type="email" name="email" required><br><br>
+
+                <label for="message">メッセージ：</label><br>
+                <textarea name="message" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="送信">
+              </form>
+                      
+      </div>
+
+</body>
 </html>
