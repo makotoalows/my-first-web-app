@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: AkazukiPOP;
+    src: url(../font/AkazukiPOP.otf) format(”otf”);
+}
+
+body{
+    font-family:  AkazukiPOP;
+    text-align: center;
+    background-color: rgb(250, 222, 81);
+}
+
+.home-button
+{
+    width: 200px;
+}
+
+.top-wrapper
+{
+    background-image: url(img/river.png);
+    opacity: 0.7;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.top-wrapper img {
+    margin-top: 30px;
+}
+
+h1{
+    color: rgb(238, 72, 72);
+}
+
+h3 {
+    margin-top: 30px;    
+}
+
+p {
+    color:rgb(37, 45, 47);    
+}
