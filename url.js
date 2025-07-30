@@ -1,2 +1,2 @@
-{your-website-url} = "https://makotoalows.github.io/my-first-web-app/";
+export const url = "https://makotoalows.github.io/my-first-web-app/";
 
